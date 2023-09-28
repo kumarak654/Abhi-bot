@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27498647'))
 API_HASH = environ.get('API_HASH', 'f7764b70861584bca951040781111bfb')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6001936081:AAFwHXbWn2hxysLb1UVJWQQYpQCZbawA4Ao")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6001936081:AAGt-iBp87uq2T_B-iY2vMShLPIR0r-KVs0")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
