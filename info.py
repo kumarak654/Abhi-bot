@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '24111429'))
-API_HASH = environ.get('API_HASH', '41c451e7412d4225f0a5450a166bcf7a')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '29124838'))
+API_HASH = environ.get('API_HASH', 'd1a293f6fc4c87f59a665f0a68cd607b')
+BOT_TOKEN = environ.get('BOT_TOKEN', :"")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Abhi72:khan7860@cluster0.ttgeadz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Abhi72:khan7860@cluster0.ttgeadz.mongodb+srv://abhishekjikumar515: abhishekjikumar515 @abhiyas.doee9.mongodb.net/?retryWrites=true&w=majority&appName=Abhiyas")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Abhi72")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
